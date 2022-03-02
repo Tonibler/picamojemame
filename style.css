@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("sajt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 770px) {
+    body{
+        background-image: url("sajtMini.png");
+    }
+}
